@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="tomatoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b"/>
+      <stop offset="100%" style="stop-color:#ee5a5a"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <circle cx="50" cy="50" r="46" fill="url(#tomatoGradient)" filter="url(#glow)"/>
+  <circle cx="50" cy="50" r="38" fill="#c0392b" opacity="0.3"/>
+  <circle cx="50" cy="50" r="34" fill="#c0392b"/>
+  <text x="50" y="60" text-anchor="middle" fill="white" font-size="28" font-weight="600" font-family="-apple-system, sans-serif">25</text>
+</svg>
