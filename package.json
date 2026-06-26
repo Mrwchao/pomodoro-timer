@@ -8,7 +8,7 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://你的用户名.github.io/pomodoro-timer",
+  "homepage": "https://Mrwchao.github.io/pomodoro-timer",
   "dependencies": {
     "vue": "^3.4.0"
   },
